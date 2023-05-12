@@ -1,0 +1,92 @@
+@media (orientation: landscape) {#zak{
+    display: flex;
+    flex-flow: column;
+}
+#child{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 95.8%;
+    height: 10vw;
+    font-size: 2vw;
+    margin-top: 4%;
+    padding: 2%;
+    border: 1px solid #47B0DF;
+    background-color: #47B0DF;
+    border-radius: 100px;
+}
+#zakim{
+    height: 10vw;
+}
+#text5{
+    position: relative; 
+    top: 4vw;
+    display: inline-block;
+}
+#buton {
+    position: relative;
+    right:1vw;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  #buton:hover {
+    background-position: right center;
+  }}
+  @media (orientation: portrait) {
+    #zak{
+        display: flex;
+        flex-flow: column;}
+    #child{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 25vw;
+        font-size: 6vw;
+        margin-top: 4%;
+        padding: 2%;
+        border: 1px solid #47B0DF;
+        background-color: #47B0DF;
+        border-radius: 100px;
+    }
+    #zakim{
+        margin-top: 5vw;
+        height: 15vw;
+    }
+    #text5{
+        position: relative; 
+        top: 4vw;
+        display: inline-block;
+    }
+    #buton {
+        position: relative;
+        right:1vw;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        padding: 20px 30px;
+        margin: 10px 20px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
+      }
+      #buton:hover {
+        background-position: right center;
+      }
+}

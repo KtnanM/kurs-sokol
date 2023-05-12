@@ -1,0 +1,75 @@
+@media (orientation: landscape) {#moreadv{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+#add_div{
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 30px;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #47B0DF;
+    width: 15%;
+}
+#add_div img{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 68%;
+}
+#add_div div{
+    margin-bottom: 10%;
+}
+
+#discount{
+    color: red;
+    margin-left: 11%;
+    margin-top: 1%;
+ position: absolute;
+}}
+@media (orientation: portrait) {
+    #moreadv{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    
+    #add_div{
+        cursor: pointer;
+        margin-top: 2%;
+        margin-left: 4%;
+        font-size: 5vw;
+        height: 45vw;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        border-radius: 25px;
+        text-align: center;
+        background-color: #47B0DF;
+        width: 45%;
+    }
+    #add_div img{
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-height: 68%;
+    }
+    #add_div div{
+        margin-bottom: 10%;
+    }
+    
+    #discount{
+        color: red;
+        margin-left: 31%;
+        margin-top: 2%;
+     position: absolute;
+}}

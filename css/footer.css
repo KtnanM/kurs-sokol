@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 4%;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: -1%;
+    background-color: rgb(170, 170, 170);
+    
+}
+footer div{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}

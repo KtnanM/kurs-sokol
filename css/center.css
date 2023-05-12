@@ -1,0 +1,232 @@
+@media (orientation: landscape) {#center{
+    margin-top: 2%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#left{
+    width: 18%;
+    background-image: url(../img/cbg.jpg);
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #0C0053;
+}
+#left a{
+    padding: 2%;  
+}
+#left img{
+    padding-left: 5%;
+}
+#assor{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+#assor img{
+    padding-right: 5%;
+}
+#cont{
+    margin: 2%;
+    display: flex;
+    flex-flow: row;
+}
+#c_plas{
+    width: 42%;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    border-radius: 25px;
+    background-image: url(../img/grad.jpg);
+    background-repeat: no-repeat;
+}
+#c_plas a{
+    margin: 2%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 2%;
+    font-size: 50px;
+    line-height: 85px;
+    text-align: left;
+}
+#c_text a{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 2%;
+    font-size: 20px;
+}
+#c_a1{
+    left: 15px;
+    top: -30px;
+    	text-decoration: line-through;
+	text-decoration-color: red;
+}
+#c_a2{
+    top: -30px;
+    right: 15px;
+}
+#c_a3{
+    right: 30%;
+}
+#c_element{
+    width: 45%;
+    height: 120%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #949494;
+    border-radius: 15px 15px 0px 0px;
+}
+#stuffid{
+    margin-top: 10%;
+}
+#c_text{
+    position: relative;
+    text-align: left;
+    padding-left: 10%;
+}
+#c_img{
+    position: relative;
+    height: 78%;
+    padding-bottom: 4%;
+    background-color: #47B0DF;
+    border-radius: 15px;
+}
+#c_img1{
+    height: 25px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+#img_item{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    height: 220px;
+}
+#f_img{
+    height: 55%;
+}
+h1{
+    text-align: center;
+}}
+@media (orientation: portrait) {
+    #center{
+        display: none;
+    }
+    #left{
+       display: none;
+    }
+    #assor{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #assor img{
+        padding-right: 5%;
+    }
+    #cont{
+        margin: 2%;
+        display: flex;
+        flex-flow: row;
+    }
+    #c_plas{
+        width: 42%;
+        display: flex;
+        flex-flow: column;
+        justify-content: left;
+        border-radius: 25px;
+        background-image: url(../img/grad.jpg);
+        background-repeat: no-repeat;
+    }
+    #c_plas a{
+        margin: 2%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 2%;
+        font-size: 50px;
+        line-height: 85px;
+        text-align: left;
+    }
+    #c_text a{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+    #c_a1{
+        left: 15px;
+        top: -30px;
+            text-decoration: line-through;
+        text-decoration-color: red;
+    }
+    #c_a2{
+        top: -30px;
+        right: 15px;
+    }
+    #c_a3{
+        right: 30%;
+    }
+    #c_element{
+        width: 45%;
+        height: 120%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background: #949494;
+        border-radius: 15px 15px 0px 0px;
+    }
+    #stuffid{
+        margin-top: 10%;
+    }
+    #c_text{
+        position: relative;
+        text-align: left;
+        padding-left: 10%;
+    }
+    #c_img{
+        position: relative;
+        height: 78%;
+        padding-bottom: 4%;
+        background-color: #47B0DF;
+        border-radius: 15px;
+    }
+    #c_img1{
+        height: 25px;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+    }
+    #img_item{
+        margin-top: 10%;
+        margin-bottom: 0%;
+        height: 220px;
+    }
+    #f_img{
+        height: 55%;
+    }
+    h1{
+        text-align: center;
+    }
+}

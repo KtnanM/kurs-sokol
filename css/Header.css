@@ -1,0 +1,165 @@
+@media (orientation: landscape) {
+body{
+border-collapse: collapse;
+}
+div{
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+#Search{
+    margin-left: 1%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-collapse: collapse;
+    border: 3px solid #47B0DF;
+    border-radius: 35px;
+    width: 50%;
+}
+
+.d3{
+    display: inline-block;
+    margin-top: 0.75%;
+    width: 100%;
+}
+form {
+    position: relative;
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .d3 form {
+    background: #47B0DF;
+  }
+  .d3 input, .d3 button {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  .d3 input {
+    width: 100%;
+    height: 62px;
+    padding-left: 15px;
+    font-size: 26px;
+  }
+  .d3 button {
+    height: 62px;
+    width: 62px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  .d3 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 26px;
+    color: #F9F0DA;
+  }
+  #menu{
+    display: none;
+  }
+#Symbols{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 45%;
+    margin-right: 2%;
+}
+#symb{
+    display: flex;
+    flex-flow: column;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}}
+@media (orientation: portrait) {
+  body{
+    border-collapse: collapse;
+    font-size: 6vw;
+    }
+    div{
+        text-align: center;
+    }
+    header{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+    #Search{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        border-collapse: collapse;
+        border: 3px solid #47B0DF;
+        border-radius: 1.82vw;
+        width: 70%;
+    }
+    
+    .d3{
+        display: inline-block;
+        margin-top: 0.75%;
+        width: 100%;
+    }
+    form {
+        position: relative;
+        width: 60vw;
+        margin: 1% auto;
+      }
+      .d3 form {
+        background: #47B0DF;
+      }
+      .d3 input, .d3 button {
+        border: none;
+        outline: none;
+        background: transparent;
+      }
+      .d3 input {
+        width: 100%;
+        height: 7vw;
+        padding-left: 0.78vw;
+        font-size: 6vw;
+      }
+      .d3 button {
+        height: 3.23vw;
+        width: 3.23vw;
+        position: absolute;
+        top: 1vw;
+        right: 4vw;
+        cursor: pointer;
+      }
+      .d3 button:before {
+        content: "\f002";
+        font-family: FontAwesome;
+        font-size: 5vw;
+        color: #F9F0DA;
+      }
+    #Symbols{
+        display: none;
+    }
+    #menu{
+      position: absolute;
+      height: 55%;
+      width: 75%;
+      background: rgba(0, 170, 238, 0.7);
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      font-size: 10vw;
+      border-radius: 7%;
+      padding: 2%;
+    }
+    #ex{
+      left: 3vw;
+      top: 3vw;
+      height: 6vw;
+      width: 6vw;
+      position: absolute;
+    }
+}
