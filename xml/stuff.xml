@@ -5,7 +5,7 @@
 <item><name>Средство для окон Vanish</name><op>(казахским акцентом)Очень хороши средство да мамай клянусь</op><adress>3item.png</adress><price>123</price><discount>70</discount><id>2</id></item>
 <item><name>Средство для пасуды Fairy</name><op>лучшее средство за свою цену</op><adress>4item.png</adress><price>17.69</price><discount>0</discount><id>3</id></item>
 <item><name>Порошок Omo</name><op>порошок как порошок</op><adress>5item.png</adress><price>22</price><discount>0</discount><id>4</id></item>
-<item><name>Ополаскеватель Tide</name>Какое то описание товара<op></op><adress>6item.png</adress><price>33</price><discount>57</discount><id>5</id></item>
+<item><name>Ополаскеватель Tide</name><op>Какое то описание товара</op><adress>6item.png</adress><price>33</price><discount>57</discount><id>5</id></item>
 <item><name>Ополаскеватель Pril</name><op>Pril - лучший выбор</op><adress>7item.png</adress><price>44</price><discount>0</discount><id>6</id></item>
 <item><name>Ополаскеватель Ajax</name><op>А вот сейчас страшно было</op><adress>8item.png</adress><price>55</price><discount>20</discount><id>7</id></item>
 <item><name>Порошок Persil</name><op>Неплохой порошок за свои деньги</op><adress>9item.png</adress><price>66</price><discount>10</discount><id>8</id></item>
